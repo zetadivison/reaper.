@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HYUGA HIGASHI | REAPER | ZETA</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#070707;color:#f5f5f5;font-family:Arial,Helvetica,sans-serif;line-height:1.8}
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:55px 8%;position:relative;overflow:hidden}
+.hero:before{content:"";position:absolute;width:520px;height:520px;border:1px solid #292929;border-radius:50%;right:-210px;top:-170px}
+.hero:after{content:"";position:absolute;width:330px;height:330px;border:1px solid #1c1c1c;border-radius:50%;left:-170px;bottom:-130px}
+.top{font-size:11px;letter-spacing:5px;color:#777;margin-bottom:65px}
+.name{font-size:clamp(52px,14vw,120px);line-height:.88;letter-spacing:-4px;font-weight:900}
+.alias{margin-top:20px;font-size:20px;letter-spacing:7px;color:#aaa}
+.role{margin-top:22px;font-size:12px;letter-spacing:4px;color:#777}
+.meta{display:flex;gap:32px;margin-top:52px;flex-wrap:wrap}
+.meta div{border-left:1px solid #555;padding-left:14px}
+.label{font-size:9px;letter-spacing:3px;color:#666}
+.value{margin-top:5px;font-size:15px;font-weight:bold}
+.section{padding:85px 8%;border-top:1px solid #1d1d1d}
+.eyebrow{font-size:10px;letter-spacing:4px;color:#666;margin-bottom:15px}
+h2{font-size:clamp(30px,8vw,60px);line-height:1.05;margin-bottom:30px;letter-spacing:-1px}
+.about{max-width:850px;color:#c5c5c5;font-size:15px}
+.about p{margin-bottom:22px}
+.quote{border-left:2px solid #777;padding:12px 0 12px 20px;color:#fff;font-weight:bold;font-size:17px;margin:30px 0}
+.card{border:1px solid #292929;padding:30px;background:linear-gradient(135deg,#111,#090909);max-width:850px}
+.event{font-size:19px;font-weight:800;line-height:1.4}
+.place{color:#888;margin-top:8px;font-size:12px;letter-spacing:2px}
+.rank{font-size:68px;font-weight:900;margin-top:24px;line-height:1}
+.rank span{font-size:12px;letter-spacing:3px;color:#666;margin-left:8px}
+.timeline{max-width:850px}
+.item{border-left:1px solid #444;padding:0 0 30px 22px;margin-bottom:10px}
+.year{font-size:11px;letter-spacing:3px;color:#666}
+.desc{font-size:16px;font-weight:bold;margin-top:5px}
+footer{padding:32px 8%;font-size:9px;letter-spacing:3px;color:#444;border-top:1px solid #1d1d1d}
+@media(max-width:600px){
+.hero{padding:38px 7%}.top{margin-bottom:52px}.meta{gap:22px;margin-top:40px}
+.section{padding:65px 7%}.about{font-size:14px}.card{padding:24px}.rank{font-size:58px}
+}
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <div class="top">ZETA / ASIA / 2026</div>
+  <div class="name">HYUGA<br>HIGASHI</div>
+  <div class="alias">REAPER</div>
+  <div class="role">PROFESSIONAL ESPORTS PLAYER</div>
+  <div class="meta">
+    <div><div class="label">TEAM</div><div class="value">ZETA</div></div>
+    <div><div class="label">REGION</div><div class="value">ASIA</div></div>
+    <div><div class="label">SEASON</div><div class="value">2026</div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="eyebrow">PLAYER PROFILE</div>
+  <h2>ABOUT REAPER</h2>
+  <div class="about">
+    <p>アジアを拠点に活動するプロeスポーツプレイヤー、<strong>REAPER（リーパー）</strong>。</p>
+    <p>競技シーンでは高い集中力と冷静な判断力を持ち、重要な場面でも自分のプレイを崩さないことを強みとしている。2026年にはフランス・パリで開催された <strong>Esports World Cup 2026 Championship</strong> に出場し、世界の舞台で<strong>31位</strong>という結果を残した。</p>
+    <p>一方で、競技を離れると少しおちゃらけた一面も。チームメイトとのコミュニケーションでは場を和ませることも多く、真剣な競技中の姿とは違った親しみやすさを持つ。</p>
+    <p>普段は冗談を言ったり、チーム内でふざけたりすることもあるが、試合が始まればスイッチを切り替え、勝利のために集中する。</p>
+    <div class="quote">「楽しむときは楽しむ。やるときはやる。」</div>
+    <p>そんなメリハリのあるスタイルも、REAPERという選手の魅力の一つ。2026年に世界の舞台を経験し、さらなる成長と高みを目指して競技活動を続けている。</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="eyebrow">WORLD STAGE / 2026</div>
+  <h2>CHAMPIONSHIP</h2>
+  <div class="card">
+    <div class="event">ESPORTS WORLD CUP 2026 CHAMPIONSHIP</div>
+    <div class="place">PARIS, FRANCE</div>
+    <div class="rank">31<span>ST PLACE</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="eyebrow">CAREER</div>
+  <h2>2026</h2>
+  <div class="timeline">
+    <div class="item">
+      <div class="year">2026</div>
+      <div class="desc">Esports World Cup 2026 Championship — 31st Place</div>
+    </div>
+    <div class="item">
+      <div class="year">REGION</div>
+      <div class="desc">ASIA</div>
+    </div>
+  </div>
+</section>
+
+<footer>HYUGA HIGASHI / REAPER / ZETA / ASIA</footer>
+</body>
+</html>
